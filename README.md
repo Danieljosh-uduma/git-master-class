@@ -35,3 +35,12 @@ git rebase main
 ## **Git cherry-pick** command
 
 **git cherry-pick** command allows you to pick a specific commit in a branch and apply it to another branch. This is useful when you want to use a specific commit from one branch to another without merging the two branches.
+
+``` Bash
+git cherry-pick <commmit-hash>
+```
+
+``` Bash
+git cherry-pick abcdef123
+```
+
